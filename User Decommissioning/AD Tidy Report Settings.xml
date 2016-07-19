@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ReportSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DomainName>gbls.local</DomainName>
+  <Username />
+  <SafeSearch>true</SafeSearch>
+  <FilterId>547c316e-bcff-49aa-a69b-181df1099e60</FilterId>
+  <DnsZoneType>Unknown</DnsZoneType>
+  <DoPing>false</DoPing>
+  <CheckDns>false</CheckDns>
+  <LastLogonCalculation>LastLogon</LastLogonCalculation>
+  <AccountType>User</AccountType>
+  <RootOuPath />
+  <IncludeSubContainers>true</IncludeSubContainers>
+  <ShortenDistinguishedNames>true</ShortenDistinguishedNames>
+</ReportSettings>

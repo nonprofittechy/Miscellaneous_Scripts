@@ -1,0 +1,3 @@
+$date = get-date -format "yyyy-MM-dd-hh-mm"
+
+get-aduser -searchbase "OU=ArchiveMe,OU=_Domain_Users,DC=DOMAIN,DC=LOCAL" -filter * -properties userSharedFolder, userSharedFolderOther, department, title | select -expandproperty "userSharedFolderOther" samaccountname, name, usersharedFolder, usersharedfolderother, department, title | export-csv -NoTypeInformation ("\\Domain\shares\it\Scripts\User Decommissioning\" + $date + " report.csv")
